@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    gap: 60px;
+    
+}
+
+.link {
+    color: black;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid rgb(126, 3, 3);
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        gap: 15px;
+    }
+    .link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .nav {
+        gap: 8px;
+    }
+    .link {
+        font-size: 14px;
+    }
+}

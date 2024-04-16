@@ -1,0 +1,6 @@
+.comments-id-name-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+

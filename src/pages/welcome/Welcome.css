@@ -1,0 +1,30 @@
+.welcome-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    gap: 40px;
+}
+
+.welcome {
+    display: flex;
+    text-wrap: wrap;
+    justify-content: center;
+}
+
+.login-registration-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+
+.login-button {
+    padding: 10px 20px;
+}
+
+
+.registration-button {
+    padding: 10px 20px;
+}
+

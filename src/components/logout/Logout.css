@@ -1,0 +1,23 @@
+.logout-button {
+    padding: 12px 16px;
+    background-color: tomato;
+    font: bold;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logout-button {
+        padding: 6px 8px;
+        font: 300;
+        font-size: 14px;
+    }
+}
+  
+@media screen and (max-width: 420px) {
+    .logout-button {
+        padding: 3px 4px;
+        font: 200;
+        font-size: 12px;
+    }
+}

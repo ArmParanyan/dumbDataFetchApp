@@ -1,0 +1,71 @@
+.registration-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+    height: 80vh;
+
+
+    font-family: Roboto, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    background-color: rgb(139, 172, 201);
+
+}
+
+.registration-in-inputs-and-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.registration-inputs-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registration-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.field-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.register-buttons-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.register-buttons-wrapper button {
+    padding: 12px 16px;
+    color: azure;
+    background-color: rgb(55, 48, 156);
+}
+
+.registration-footer {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.error-message {
+    color: red;
+}
