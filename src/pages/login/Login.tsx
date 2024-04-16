@@ -35,7 +35,7 @@ const Login = () => {
 
     if (user) {
       dispatch(loginSuccess(user));
-      navigate("/");
+      navigate("/home");
     } else {
       dispatch(authFailure("Invalid email or password"));
     }

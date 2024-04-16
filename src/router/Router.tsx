@@ -14,7 +14,7 @@ import Images from "../pages/images/Images";
 
 export const router = createBrowserRouter([
     {
-        path: "/welcome",
+        path: "/",
         element: <Welcome />,
     },
     {
@@ -26,27 +26,27 @@ export const router = createBrowserRouter([
         element: <Login />,
     },
     {
-        path: "/",
+        path: "/home",
         element: <Home />,
 
 
 
         children: [
             {
-                path: "/",
-                element: <Navigate to="/posts" />,
+                path: "/home",
+                element: <Navigate to="/home/posts" />,
             },
             {
                 index: true,   
-                path: "/posts",
+                path: "/home/posts",
                 element: <Posts />,
             },
             {
-                path: "/comments",
+                path: "/home/comments",
                 element: <Comments />
             },
             {
-                path: "/images",
+                path: "/home/images",
                 element: <Images />
             }
         ]

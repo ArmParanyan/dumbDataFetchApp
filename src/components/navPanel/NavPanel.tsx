@@ -8,15 +8,15 @@ const NavPanel = () => {
     <div className='nav'>
         
         <div>
-            <NavLink to={"/posts"} className="link">Posts</NavLink>
+            <NavLink to={"/home/posts"} className="link">Posts</NavLink>
         </div>
 
         <div>
-            <NavLink to={"/comments"} className="link">Comments</NavLink>
+            <NavLink to={"/home/comments"} className="link">Comments</NavLink>
         </div>
 
         <div>
-            <NavLink to={"/images"} className="link">Images</NavLink>
+            <NavLink to={"/home/images"} className="link">Images</NavLink>
         </div>
     </div>
   )

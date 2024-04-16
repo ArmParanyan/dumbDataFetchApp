@@ -2,13 +2,15 @@ import React from 'react'
 import NavPanel from '../navPanel/NavPanel'
 import Logout from '../logout/Logout'
 
+import icon from "../../logo.png"
+
 import "./Header.css"
 
 const Header = () => {
   return (
     <div className='header'>
         <div>
-            <img src="public/images/logo.png" alt="Logo" />
+            <img src={icon} alt="Logo" />
         </div>
 
         <div>

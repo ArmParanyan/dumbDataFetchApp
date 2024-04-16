@@ -6,6 +6,10 @@
     background-color: antiquewhite;
 }
 
+.header img {
+    width: 60px;
+    height: 60px;
+}
 
 @media screen and (max-width: 768px) {
     .header img {

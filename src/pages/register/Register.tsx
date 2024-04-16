@@ -33,7 +33,7 @@ const Register = () => {
     const handleSubmit = (values: FormValues) => {
         try {
             dispatch(registerSuccess(values));
-            navigate("/");
+            navigate("/home/posts");
         } catch (error) {
             dispatch(authFailure(error));
 
